@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Study Helper</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Study Helper</h1>
+
+    <textarea id="notes" placeholder="Paste your notes here..."></textarea>
+
+    <div class="buttons">
+      <button onclick="generateSummary()">Summary</button>
+      <button onclick="generateFlashcards()">Flashcards</button>
+      <button onclick="generateQuiz()">Quiz</button>
+      <button onclick="extractTasks()">Action Items</button>
+    </div>
+
+    <div id="output"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
